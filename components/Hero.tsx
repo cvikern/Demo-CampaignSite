@@ -10,13 +10,6 @@ const Hero: React.FC = () => {
     <section className="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden bg-[#050505]">
       <ParticleBackground />
       
-      {/* Top Navigation Mockup */}
-      <div className="absolute top-0 left-0 p-6 z-20">
-         <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-brand-orange rounded flex items-center justify-center">
-            <span className="font-bold text-white">IG</span>
-         </div>
-      </div>
-
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-[-100px]">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight leading-tight">
           Your Security, <br />
